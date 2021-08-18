@@ -9,8 +9,8 @@ use Pomi\Sharepoint;
 use Pomi\Config as SPConfig;
 
 $app = new Silex\Application();
-$app['url'] = "https://wira.localhost";
-$app['sharepoint_base_url']='https://paitonoperation.sharepoint.com';
+$app['url'] = "https://example.localhost";
+$app['sharepoint_base_url']='https://example.sharepoint.com';
 $app['debug'] = true;
 
 $spconfig = new SPConfig();
